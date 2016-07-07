@@ -19,7 +19,7 @@ public:
         return res;
     }
 
-    void dfs(vector<string> &res,string *map,int index,string digits,string &tmp)
+    void dfs(vector<string> &res,string *map,int index,string digits,string &tmp) //res必须引用，tmp不必用引用
     {
         if(index==digits.size())
         {
